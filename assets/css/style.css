@@ -1,16 +1,17 @@
-/* style applies to all elements */
+/* applies to all elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-
+/* -- body -- */
 body {
     background-color: #d9dcd6;
 }
 
 
+/* -- header -- */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -39,20 +40,25 @@ body {
     list-style-type: none;
 }
 
+/* displays navigation list items right horizontal */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* -- links -- */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* -- paragraphs -- */
 p {
     font-size: 16px;
 }
 
+
+/*  -- background image --  */
 .hero {
     height: 800px;
     width: 100%;
@@ -72,6 +78,7 @@ p {
     margin-left: 25px;
 }
 
+/* --  main content -- */
 .content {
     width: 75%;
     display: inline-block;
@@ -102,6 +109,7 @@ p {
     font-size: 36px;
 }
 
+/* -- sidebar content -- */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -135,6 +143,7 @@ p {
     max-width: 150px;
 }
 
+/* -- footer -- */
 .footer {
     padding: 30px;
     clear: both;
